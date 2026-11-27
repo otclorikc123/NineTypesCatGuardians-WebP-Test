@@ -14,13 +14,13 @@ export default function CoverPage({ onStart }: CoverPageProps) {
       <section className="cover__pc">
         <img
           className="cover__background"
-          src={`${A}/bg/asset_bg_home_pc.png`}
+          src={`${A}/bg/asset_bg_home_pc.webp`}
           alt=""
         />
 
         <img
           className="cover__logo"
-          src={`${A}/illustrations/asset_logo.png`}
+          src={`${A}/illustrations/asset_logo.webp`}
           alt="九型体质·檐主守护星"
         />
 
@@ -56,13 +56,13 @@ export default function CoverPage({ onStart }: CoverPageProps) {
       <section className="cover__mobile">
         <img
           className="cover__background"
-          src={`${A}/bg/asset_bg_home_mobile.png`}
+          src={`${A}/bg/asset_bg_home_mobile.webp`}
           alt=""
         />
 
         <img
           className="cover__logo"
-          src={`${A}/illustrations/asset_logo.png`}
+          src={`${A}/illustrations/asset_logo.webp`}
           alt="九型体质·檐主守护星"
         />
 

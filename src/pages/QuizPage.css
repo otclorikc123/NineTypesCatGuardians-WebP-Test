@@ -16,14 +16,14 @@
   background-size: 100% 100%;
 }
 
-.quiz--group-1 { background-image: url("/assets/bg/asset_bg_test_pc_01.png"); }
-.quiz--group-2 { background-image: url("/assets/bg/asset_bg_test_pc_02.png"); }
-.quiz--group-3 { background-image: url("/assets/bg/asset_bg_test_pc_03.png"); }
-.quiz--group-4 { background-image: url("/assets/bg/asset_bg_test_pc_04.png"); }
-.quiz--group-5 { background-image: url("/assets/bg/asset_bg_test_pc_05.png"); }
-.quiz--group-6 { background-image: url("/assets/bg/asset_bg_test_pc_06.png"); }
-.quiz--group-7 { background-image: url("/assets/bg/asset_bg_test_pc_07.png"); }
-.quiz--group-8 { background-image: url("/assets/bg/asset_bg_test_pc_08.png"); }
+.quiz--group-1 { background-image: url("/assets/bg/asset_bg_test_pc_01.webp"); }
+.quiz--group-2 { background-image: url("/assets/bg/asset_bg_test_pc_02.webp"); }
+.quiz--group-3 { background-image: url("/assets/bg/asset_bg_test_pc_03.webp"); }
+.quiz--group-4 { background-image: url("/assets/bg/asset_bg_test_pc_04.webp"); }
+.quiz--group-5 { background-image: url("/assets/bg/asset_bg_test_pc_05.webp"); }
+.quiz--group-6 { background-image: url("/assets/bg/asset_bg_test_pc_06.webp"); }
+.quiz--group-7 { background-image: url("/assets/bg/asset_bg_test_pc_07.webp"); }
+.quiz--group-8 { background-image: url("/assets/bg/asset_bg_test_pc_08.webp"); }
 
 /* =========================
    猫咪与文案框
@@ -2025,35 +2025,35 @@ body:has(.quiz)::before {
 
 /* PC 背景 */
 body:has(.quiz--group-1)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_01.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_01.webp");
 }
 
 body:has(.quiz--group-2)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_02.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_02.webp");
 }
 
 body:has(.quiz--group-3)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_03.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_03.webp");
 }
 
 body:has(.quiz--group-4)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_04.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_04.webp");
 }
 
 body:has(.quiz--group-5)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_05.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_05.webp");
 }
 
 body:has(.quiz--group-6)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_06.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_06.webp");
 }
 
 body:has(.quiz--group-7)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_07.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_07.webp");
 }
 
 body:has(.quiz--group-8)::before {
-  background-image: url("/assets/bg/asset_bg_test_pc_08.png");
+  background-image: url("/assets/bg/asset_bg_test_pc_08.webp");
 }
 
 /* quiz 自身不再显示背景，避免背景重复 */
@@ -2116,35 +2116,35 @@ body:has(.quiz--group-8)::before {
 
   /* 移动端背景 */
   body:has(.quiz--group-1)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_01.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_01.webp");
   }
 
   body:has(.quiz--group-2)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_02.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_02.webp");
   }
 
   body:has(.quiz--group-3)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_03.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_03.webp");
   }
 
   body:has(.quiz--group-4)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_04.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_04.webp");
   }
 
   body:has(.quiz--group-5)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_05.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_05.webp");
   }
 
   body:has(.quiz--group-6)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_06.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_06.webp");
   }
 
   body:has(.quiz--group-7)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_07.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_07.webp");
   }
 
   body:has(.quiz--group-8)::before {
-    background-image: url("/assets/bg/asset_bg_test_mobile_08.png");
+    background-image: url("/assets/bg/asset_bg_test_mobile_08.webp");
   }
 
   /* 进度条和猫咪仍然固定在页面顶部 */

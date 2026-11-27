@@ -61,12 +61,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "天选喵",
     badgeText: "全偏颇转化分＜8分 隐藏款 天选欧皇",
 
-    characterImage: "/assets/characters/asset_character_type_01.png",
+    characterImage: "/assets/characters/asset_character_type_01.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge01.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_01.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_01.png",
+      pc: "/assets/bg/asset_bg_result_pc_01.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_01.webp",
     },
 
     coreTraits: [
@@ -95,7 +95,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     mobile: { diagnosticNote },
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_01.png",
+      posterImage: "/assets/shareposter/asset_share_poster_01.webp",
       posterTitle: "✦ 时愈堂把脉报告·平和质 ✦",
       posterDescription:
         "檐主说我是天选喵，体质天花板那种。隐藏款，不常出。评论区吸一口欧气，祝大家都好运。",
@@ -113,12 +113,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "快充喵",
     badgeText: "气虚质≥8分 没电星人",
 
-    characterImage: "/assets/characters/asset_character_type_02.png",
+    characterImage: "/assets/characters/asset_character_type_02.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge02.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_02.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_02.png",
+      pc: "/assets/bg/asset_bg_result_pc_02.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_02.webp",
     },
 
     coreTraits: [
@@ -139,7 +139,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_02.png",
+      posterImage: "/assets/shareposter/asset_share_poster_02.webp",
       posterTitle: "✦ 时愈堂把脉报告·气虚质 ✦",
       posterDescription:
         "檐主认证说我今天电量已耗光，有事留言，明天随缘回复#气虚体质 #累了就躺",
@@ -157,12 +157,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "暖暖喵",
     badgeText: "阳虚质≥8分 怕冷星人",
 
-    characterImage: "/assets/characters/asset_character_type_03.png",
+    characterImage: "/assets/characters/asset_character_type_03.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge03.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_03.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_03.png",
+      pc: "/assets/bg/asset_bg_result_pc_03.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_03.webp",
     },
 
     coreTraits: [
@@ -183,7 +183,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_03.png",
+      posterImage: "/assets/shareposter/asset_share_poster_03.webp",
       posterTitle: "✦ 时愈堂把脉报告·阳虚质 ✦",
       posterDescription:
         "檐主说我手脚一年四季像冰棍，但心是烫的🔥靠近我的人会慢慢变暖。#阳虚体质 #怕冷星人",
@@ -201,12 +201,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "水光喵",
     badgeText: "阴虚质≥8分 干干星人",
 
-    characterImage: "/assets/characters/asset_character_type_04.png",
+    characterImage: "/assets/characters/asset_character_type_04.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge04.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_04.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_04.png",
+      pc: "/assets/bg/asset_bg_result_pc_04.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_04.webp",
     },
 
     coreTraits: [
@@ -227,7 +227,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_04.png",
+      posterImage: "/assets/shareposter/asset_share_poster_04.webp",
       posterTitle: "✦ 时愈堂把脉报告·阴虚质 ✦",
       posterDescription:
         "檐主说我缺水但话不少，内心戏更多。今夜不熬夜了，檐主监督我。#阴虚体质 #润燥行动",
@@ -245,12 +245,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "祛湿喵",
     badgeText: "痰湿质≥8分 泡发星人",
 
-    characterImage: "/assets/characters/asset_character_type_05.png",
+    characterImage: "/assets/characters/asset_character_type_05.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge05.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_05.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_05.png",
+      pc: "/assets/bg/asset_bg_result_pc_05.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_05.webp",
     },
 
     coreTraits: [
@@ -271,7 +271,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_05.png",
+      posterImage: "/assets/shareposter/asset_share_poster_05.webp",
       posterTitle: "✦ 时愈堂把脉报告·痰湿质 ✦",
       posterDescription:
         "檐主说我今天又是水肿的一天。出门透气了，有一起的吗？#痰湿体质 #佛系养生",
@@ -289,12 +289,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "凉茶喵",
     badgeText: "湿热质≥8分 火大星人",
 
-    characterImage: "/assets/characters/asset_character_type_06.png",
+    characterImage: "/assets/characters/asset_character_type_06.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge06.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_06.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_06.png",
+      pc: "/assets/bg/asset_bg_result_pc_06.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_06.webp",
     },
 
     coreTraits: [
@@ -315,7 +315,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_06.png",
+      posterImage: "/assets/shareposter/asset_share_poster_06.webp",
       posterTitle: "✦ 时愈堂把脉报告·湿热质 ✦",
       posterDescription:
         "檐主说我性子急、心不坏、炸完就没事了。今天的凉茶已喝，谢谢檐主。#湿热体质 #真性情",
@@ -333,12 +333,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "通通喵",
     badgeText: "血瘀质≥8分 堵堵星人",
 
-    characterImage: "/assets/characters/asset_character_type_07.png",
+    characterImage: "/assets/characters/asset_character_type_07.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge07.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_07.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_07.png",
+      pc: "/assets/bg/asset_bg_result_pc_07.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_07.webp",
     },
 
     coreTraits: [
@@ -359,7 +359,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_07.png",
+      posterImage: "/assets/shareposter/asset_share_poster_07.webp",
       posterTitle: "✦ 时愈堂把脉报告·血瘀质 ✦",
       posterDescription:
         "檐主说我心里的话不能憋太久，一定要及时说出来。#血瘀体质 #开始疏通",
@@ -377,12 +377,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "逍遥喵",
     badgeText: "气郁质≥8分 卡住星人",
 
-    characterImage: "/assets/characters/asset_character_type_08.png",
+    characterImage: "/assets/characters/asset_character_type_08.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge08.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_08.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_08.png",
+      pc: "/assets/bg/asset_bg_result_pc_08.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_08.webp",
     },
 
     coreTraits: [
@@ -403,7 +403,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_08.png",
+      posterImage: "/assets/shareposter/asset_share_poster_08.webp",
       posterTitle: "✦ 时愈堂把脉报告·气郁质 ✦",
       posterDescription:
         "檐主说我很容易卡住，今天开始，先照顾自己。想太多的人，也要学会放一放。#气郁体质 #舒展计划",
@@ -421,12 +421,12 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     characterName: "结界喵",
     badgeText: "特禀质≥8分 敏敏星人",
 
-    characterImage: "/assets/characters/asset_character_type_09.png",
+    characterImage: "/assets/characters/asset_character_type_09.webp",
     badgeImage: "/assets/icons/asset_deco_result_badge09.png",
 
     background: {
-      pc: "/assets/bg/asset_bg_result_pc_09.png",
-      mobile: "/assets/bg/asset_bg_result_mobile_09.png",
+      pc: "/assets/bg/asset_bg_result_pc_09.webp",
+      mobile: "/assets/bg/asset_bg_result_mobile_09.webp",
     },
 
     coreTraits: [
@@ -447,7 +447,7 @@ const rawResultData: Record<ResultId, ResultProfile> = {
     ],
 
     share: {
-      posterImage: "/assets/shareposter/asset_share_poster_09.png",
+      posterImage: "/assets/shareposter/asset_share_poster_09.webp",
       posterTitle: "✦ 时愈堂把脉报告·特禀质 ✦",
       posterDescription:
         "檐主给我撑了个结界，敏感星人的日常：花开了打喷嚏，换季了先病。但檐主说，我值得被好好保护。#特禀体质 #檐主守护中",

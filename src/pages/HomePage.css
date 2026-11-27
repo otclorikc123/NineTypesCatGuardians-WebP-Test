@@ -9,7 +9,7 @@
   overflow: hidden;
   box-sizing: border-box;
   color: #54402a;
-  background: #f1e2c8 url("/assets/bg/asset_bg_home_pc.png")
+  background: #f1e2c8 url("/assets/bg/asset_bg_home_pc.webp")
     center / cover no-repeat;
   font-family: "Noto Sans SC", sans-serif;
 }
@@ -330,7 +330,7 @@
     min-height: 981px;
     height: auto;
     overflow: hidden;
-    background-image: url("/assets/bg/asset_bg_home_mobile.png");
+    background-image: url("/assets/bg/asset_bg_home_mobile.webp");
     background-position: top center;
     background-size: 100% 1320px;
   }
