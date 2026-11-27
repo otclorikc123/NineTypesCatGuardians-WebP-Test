@@ -65,6 +65,7 @@ useLayoutEffect(() => {
   const badgeName = badgeParts.slice(1).join(" ");
 
 const posterRef = useRef<HTMLImageElement>(null);
+const [downloadNotice, setDownloadNotice] = useState(false);
 const [isDownloading, setIsDownloading] = useState(false);
 
 
@@ -137,8 +138,14 @@ const [isDownloading, setIsDownloading] = useState(false);
       link.download = `${profile.characterName}.png`;
 
       document.body.appendChild(link);
-      link.click();
-      link.remove();
+link.click();
+link.remove();
+
+setDownloadNotice(true);
+
+window.setTimeout(() => {
+  setDownloadNotice(false);
+}, 3500);
 
       window.setTimeout(() => {
         URL.revokeObjectURL(url);
@@ -462,6 +469,15 @@ const [isDownloading, setIsDownloading] = useState(false);
   下载高清海报
 </button>
 
+{downloadNotice && (
+  <p
+    className="result-share__success"
+    role="status"
+    aria-live="polite"
+  >
+    ✦ 海报已开始下载，请在下载列表中查看 ✦
+  </p>
+)}
             <p className="result-share__footer">
               异境凉茶铺｜九大体质檐主守护星｜深圳千雪影业有限公司
             </p>

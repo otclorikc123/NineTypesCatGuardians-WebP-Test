@@ -31,6 +31,8 @@ function getOffset(index: number, activeIndex: number) {
 
 export default function HomePage({ onStart }: HomePageProps) {
   const [activeIndex, setActiveIndex] = useState(initialIndex);
+  const [showCrowdfundingNotice, setShowCrowdfundingNotice] =
+  useState(false);
   const pcDragStart = useRef<number | null>(null);
   const mobileDragStart = useRef<number | null>(null);
   const dragged = useRef(false);
@@ -114,9 +116,13 @@ export default function HomePage({ onStart }: HomePageProps) {
             再测一遍 ✦
           </button>
 
-          <span className="home__button home__button--secondary">
-            潮玩众筹
-          </span>
+          <button
+  className="home__button home__button--secondary"
+  type="button"
+  onClick={() => setShowCrowdfundingNotice(true)}
+>
+  潮玩众筹
+</button>
         </div>
       </header>
 
@@ -227,16 +233,22 @@ export default function HomePage({ onStart }: HomePageProps) {
 
       <section className="home__bottom">
         <div className="home__media-panel">
-          <h2>📺 B站正版动画番剧 · 《异境凉茶铺》</h2>
+          <h2>📺 B站动画番剧 · 《异境凉茶铺》</h2>
           <div className="home__media-placeholder">
-            <span>▶ 点击播放官方先行预告PV</span>
-          </div>
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1Uwhu6DEBX&page=1&danmaku=0&autoplay=0"
+    title="异境凉茶铺官方先行预告PV"
+    allow="fullscreen; picture-in-picture"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
         </div>
 
         <div className="home__support-panel">
           <h2>🐾 星心解忧 · 青少年情绪关怀与心理支持服务</h2>
           <div className="home__support-placeholder">
-            <p>已累计向心理健康公益捐助资金 万元</p>
+            <p>已累计向心理健康公益捐助资金 5 万元</p>
             <span>
               参与潮玩众筹，深圳市关爱行动公益基金会即捐赠 元
             </span>
@@ -247,6 +259,31 @@ export default function HomePage({ onStart }: HomePageProps) {
       <footer className="home__footer">
         ✦ 把脉虽严谨，结果仅娱乐 · 《异境凉茶铺》时愈堂 ✦
       </footer>
+      {showCrowdfundingNotice && (
+  <div
+    className="home__notice"
+    onClick={() => setShowCrowdfundingNotice(false)}
+  >
+    <div
+      className="home__notice-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-label="潮玩众筹提示"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <button
+        className="home__notice-close"
+        type="button"
+        onClick={() => setShowCrowdfundingNotice(false)}
+        aria-label="关闭"
+      >
+        ×
+      </button>
+
+      <p>尚未开启，敬请期待</p>
+    </div>
+  </div>
+)}
     </main>
   );
 }

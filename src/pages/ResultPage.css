@@ -496,6 +496,27 @@
   cursor: pointer;
 }
 
+/* 海报下载提示 */
+.result-share__success {
+  margin: -8px 0 0;
+  color: #C5A059;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  animation: result-success-in 0.25s ease;
+}
+
+@keyframes result-success-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .result-share__footer {
   margin: 0;
   text-align: center;
