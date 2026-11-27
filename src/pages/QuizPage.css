@@ -2215,3 +2215,23 @@ body:has(.quiz--group-8)::before {
     }
   }
 }
+/* =========================
+   PC / Mobile 进度条文案水平对齐
+========================= */
+
+@media (min-width: 601px) {
+  .quiz__progress-label,
+  .quiz__progress-count,
+  .quiz__progress-percent {
+    top: 16px !important;
+    line-height: 18px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .quiz__progress-label,
+  .quiz__progress-count {
+    top: 8px !important;
+    line-height: 12px !important;
+  }
+}
