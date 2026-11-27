@@ -362,14 +362,14 @@
     background-size: 100% 100%;
   }
 
-  .quiz--group-1 { background-image: url("/assets/bg/asset_bg_test_mobile_01.png"); }
-  .quiz--group-2 { background-image: url("/assets/bg/asset_bg_test_mobile_02.png"); }
-  .quiz--group-3 { background-image: url("/assets/bg/asset_bg_test_mobile_03.png"); }
-  .quiz--group-4 { background-image: url("/assets/bg/asset_bg_test_mobile_04.png"); }
-  .quiz--group-5 { background-image: url("/assets/bg/asset_bg_test_mobile_05.png"); }
-  .quiz--group-6 { background-image: url("/assets/bg/asset_bg_test_mobile_06.png"); }
-  .quiz--group-7 { background-image: url("/assets/bg/asset_bg_test_mobile_07.png"); }
-  .quiz--group-8 { background-image: url("/assets/bg/asset_bg_test_mobile_08.png"); }
+  .quiz--group-1 { background-image: url("/assets/bg/asset_bg_test_mobile_01.webp"); }
+  .quiz--group-2 { background-image: url("/assets/bg/asset_bg_test_mobile_02.webp"); }
+  .quiz--group-3 { background-image: url("/assets/bg/asset_bg_test_mobile_03.webp"); }
+  .quiz--group-4 { background-image: url("/assets/bg/asset_bg_test_mobile_04.webp"); }
+  .quiz--group-5 { background-image: url("/assets/bg/asset_bg_test_mobile_05.webp"); }
+  .quiz--group-6 { background-image: url("/assets/bg/asset_bg_test_mobile_06.webp"); }
+  .quiz--group-7 { background-image: url("/assets/bg/asset_bg_test_mobile_07.webp"); }
+  .quiz--group-8 { background-image: url("/assets/bg/asset_bg_test_mobile_08.webp"); }
 
   /* 猫咪图标与文案框 */
   .quiz__cat {
